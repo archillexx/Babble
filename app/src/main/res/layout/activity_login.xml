@@ -4,65 +4,63 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Login">
+    tools:context=".Login"
+    android:background="@color/grey">
 
     <ImageView
         android:id="@+id/app_logo"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp"
-        android:src="@drawable/logo" />
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        app:srcCompat="@drawable/logo1" />
 
     <EditText
         android:id="@+id/edt_email"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_below="@id/app_logo"
-        android:layout_marginTop="10dp"
-        android:hint="Email"
-        android:paddingLeft="13dp"
+        android:layout_marginTop="0dp"
         android:background="@drawable/edt_background"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"/>
+        android:paddingLeft="13dp"
+        android:hint="Email"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
 
-    <EditText
+   <EditText
         android:id="@+id/edt_password"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_below="@id/edt_email"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="30dp"
         android:background="@drawable/edt_background"
         android:paddingLeft="13dp"
+        android:inputType="textPassword"
         android:hint="Password"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"/>
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
 
     <Button
         android:id="@+id/btnLogin"
-        android:layout_width="wrap_content"
+        android:layout_width="125dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/edt_password"
-        android:text="Log In"
-        android:background="@drawable/btn_background"
-        android:textColor="@color/white"
-        android:textSize="20sp"
+        android:layout_marginTop="60dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"
-        android:width="150dp"/>
+        android:background="@drawable/btn_background"
+        android:text="Log In"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/btnSignUp"
-        android:layout_width="wrap_content"
+        android:layout_width="125dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/btnLogin"
-        android:text="Sign Up"
-        android:background="@drawable/btn_background"
-        android:textColor="@color/white"
-        android:textSize="20sp"
+        android:layout_marginTop="30dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"
-        android:width="150dp"/>
+        android:background="@drawable/btn_background"
+        android:text="Sign Up"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
 
 </RelativeLayout>
