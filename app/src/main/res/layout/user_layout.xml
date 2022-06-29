@@ -8,7 +8,7 @@
             android:id="@+id/txt_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Abhay"
+            android:text="test"
             android:textSize="38sp"
             android:textStyle="bold"
             android:layout_margin="10dp"

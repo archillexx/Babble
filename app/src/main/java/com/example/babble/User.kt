@@ -1,8 +1,6 @@
 package com.example.babble
 
 class User {
-<<<<<<< HEAD
-=======
     var name: String? = null
     var email: String? = null
     var vid: String? = null
@@ -14,5 +12,4 @@ class User {
         this.vid=vid
     }
 
->>>>>>> f2c3b15aa7e9b5dbfff6915158d4939eb157c3b5
 }
