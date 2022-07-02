@@ -1,34 +1,33 @@
 {
   "project_info": {
-    "project_number": "968587545796",
-    "firebase_url": "https://babble-9a3b1-default-rtdb.firebaseio.com",
-    "project_id": "babble-9a3b1",
-    "storage_bucket": "babble-9a3b1.appspot.com"
+    "project_number": "266282290828",
+    "project_id": "babble-9b008",
+    "storage_bucket": "babble-9b008.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:968587545796:android:364da5bcc0f45681f38d91",
+        "mobilesdk_app_id": "1:266282290828:android:1a5769df9ea9e7638bf5a9",
         "android_client_info": {
           "package_name": "com.example.babble"
         }
       },
       "oauth_client": [
         {
-          "client_id": "968587545796-b5c1du1aokrkbmlod9pkp2527n03effj.apps.googleusercontent.com",
+          "client_id": "266282290828-a4a4juam8h5fv8rdnbpdpekfc8hr9dc7.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCVnSr1MdN83kffHlS8j9XEKi0N8EprI1Q"
+          "current_key": "AIzaSyCKpmO44pFCIA3wRiFOe7IKiqba3Zxkoa8"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "968587545796-b5c1du1aokrkbmlod9pkp2527n03effj.apps.googleusercontent.com",
+              "client_id": "266282290828-a4a4juam8h5fv8rdnbpdpekfc8hr9dc7.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
