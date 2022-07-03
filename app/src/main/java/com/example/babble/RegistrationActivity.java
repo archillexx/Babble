@@ -63,6 +63,7 @@ public class RegistrationActivity extends AppCompatActivity {
                 String email=reg_email.getText().toString();
                 String password=reg_password.getText().toString();
                 String cpassword=reg_cpassword.getText().toString();
+                String status="hey there I'm using Babble";
 
 
                 if(TextUtils.isEmpty(name) || TextUtils.isEmpty(email) || TextUtils.isEmpty(password) || TextUtils.isEmpty(cpassword)){
@@ -90,7 +91,7 @@ public class RegistrationActivity extends AppCompatActivity {
                                                 @Override
                                                 public void onSuccess(Uri uri) {
                                                     imageURI=uri.toString();
-                                                    Users users=new Users(auth.getUid(), name,email,imageURI);
+                                                    Users users=new Users(auth.getUid(), name,email,imageURI,status);
                                                     reference.setValue(users).addOnCompleteListener(new OnCompleteListener<Void>() {
                                                         @Override
                                                         public void onComplete(@NonNull Task<Void> task) {
@@ -108,8 +109,9 @@ public class RegistrationActivity extends AppCompatActivity {
                                         }
                                     });
                                 }else{
+                                    String status="hey there I'm using Babble";
                                     imageURI="https://firebasestorage.googleapis.com/v0/b/babble-9b008.appspot.com/o/profile_image.png?alt=media&token=bcdd4929-1b68-4d3d-9252-8348fc70a694";
-                                    Users users=new Users(auth.getUid(), name,email,imageURI);
+                                    Users users=new Users(auth.getUid(), name,email,imageURI,status);
                                     reference.setValue(users).addOnCompleteListener(new OnCompleteListener<Void>() {
                                         @Override
                                         public void onComplete(@NonNull Task<Void> task) {
