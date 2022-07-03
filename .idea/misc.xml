@@ -14,10 +14,14 @@
         <entry key="..\:/Users/shash/Desktop/Babble/app/src/main/res/menu/menu.xml" value="0.33" />
         <entry key="app/src/main/res/drawable/btn_background.xml" value="0.154" />
         <entry key="app/src/main/res/drawable/edt_background.xml" value="0.2345" />
+        <entry key="app/src/main/res/drawable/empty_bac.xml" value="0.1775" />
+        <entry key="app/src/main/res/drawable/shape_dialog.xml" value="0.1775" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_registration.xml" value="0.15552178318135765" />
         <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.2427536231884058" />
+        <entry key="app/src/main/res/layout/dialog_layout.xml" value="0.31875" />
+        <entry key="app/src/main/res/layout/shape_dialog.xml" value="0.31875" />
         <entry key="app/src/main/res/layout/user_layout.xml" value="0.19610507246376813" />
       </map>
     </option>

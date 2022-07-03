@@ -47,7 +47,7 @@ public class LoginActivity extends AppCompatActivity {
                 }else if(!email.matches(emailPattern)){
                     login_email.setError("Invalid Email");
                     Toast.makeText(LoginActivity.this,"Invalid Email",Toast.LENGTH_SHORT).show();
-                }else if(password.length()>6){
+                }else if(password.length()<6){
                     login_password.setError("Invalid Password");
                     Toast.makeText(LoginActivity.this,"Invalid Password",Toast.LENGTH_SHORT).show();
                 }else{
