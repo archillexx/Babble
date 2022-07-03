@@ -34,6 +34,7 @@
             app:civ_border_width="2dp" />
 
         <EditText
+            android:id="@+id/reg_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/_10sdp"
@@ -48,6 +49,7 @@
             android:textColor="@color/black" />
 
         <EditText
+            android:id="@+id/reg_email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/_10sdp"
@@ -62,6 +64,7 @@
             android:textColor="@color/black" />
 
         <EditText
+            android:id="@+id/reg_password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/_10sdp"
@@ -77,6 +80,7 @@
             android:textColor="@color/black" />
 
         <EditText
+            android:id="@+id/reg_cpassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/_10sdp"
@@ -92,6 +96,7 @@
             android:textColor="@color/black" />
 
         <TextView
+            android:id="@+id/signup_btn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/_10sdp"
@@ -121,7 +126,7 @@
             android:fontFamily="@font/spartan_regular"
             android:text="Already have an account? "/>
         <TextView
-            android:id="@+id/txt_signup"
+            android:id="@+id/txt_login"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/spartan_bold"
