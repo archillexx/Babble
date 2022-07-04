@@ -16,6 +16,7 @@
         <entry key="app/src/main/res/drawable/edt_background.xml" value="0.2345" />
         <entry key="app/src/main/res/drawable/empty_bac.xml" value="0.1775" />
         <entry key="app/src/main/res/drawable/shape_dialog.xml" value="0.1775" />
+        <entry key="app/src/main/res/layout/activity_chat.xml" value="0.31979166666666664" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_registration.xml" value="0.15552178318135765" />
