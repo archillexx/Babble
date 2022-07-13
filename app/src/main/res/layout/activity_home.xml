@@ -22,6 +22,13 @@
             android:textSize="@dimen/_16sdp"
             android:text="@string/app_name"
             android:layout_marginLeft="@dimen/_10sdp"/>
+        <ImageView
+            android:id="@+id/settings"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:background="@drawable/settings"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_gravity="center"/>
 
         <ImageView
             android:id="@+id/img_logOut"
@@ -30,12 +37,13 @@
             android:background="@drawable/off"
             android:layout_marginRight="@dimen/_10sdp"
             android:layout_gravity="center"/>
-         </LinearLayout>
-  <androidx.recyclerview.widget.RecyclerView
-      android:layout_width="match_parent"
-      android:layout_height="match_parent"
-      android:layout_below="@+id/toolbar"
-      android:layout_marginTop="@dimen/_5sdp"
+    </LinearLayout>
 
-      android:id="@+id/mainUserRecyclerView"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/mainUserRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+
+        android:layout_marginTop="@dimen/_5sdp" />
 </RelativeLayout>

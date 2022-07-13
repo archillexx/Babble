@@ -40,47 +40,52 @@
         android:layout_above="@+id/ll3"
         android:layout_height="wrap_content"
         android:layout_below="@+id/ll1" />
+
     <LinearLayout
         android:id="@+id/ll3"
-        android:orientation="horizontal"
-        android:layout_margin="@dimen/_2sdp"
-        android:layout_alignParentBottom="true"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/_2sdp"
+        android:layout_marginTop="@dimen/_2sdp"
+        android:layout_marginEnd="@dimen/_2sdp"
+        android:layout_marginBottom="@dimen/_2sdp"
+        android:orientation="horizontal">
+
         <androidx.cardview.widget.CardView
-            android:layout_weight="1"
-            android:layout_margin="@dimen/_3sdp"
-            app:cardBackgroundColor="@color/white"
-            app:cardCornerRadius="@dimen/_540sdp"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/_35sdp">
+            android:layout_height="@dimen/_35sdp"
+            android:layout_margin="@dimen/_3sdp"
+            android:layout_weight="1"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="@dimen/_540sdp">
+
             <EditText
                 android:id="@+id/edtMessage"
                 android:layout_width="match_parent"
-                android:layout_gravity="center_vertical"
-                android:paddingStart="@dimen/_10sdp"
-                android:paddingLeft="@dimen/_10sdp"
-                android:fontFamily="@font/spartan_regular"
                 android:layout_height="wrap_content"
-             android:hint="Lets Babble..............."
-                android:background="@null"
-                />
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/spartan_regular"
+                android:hint="Lets Babble..............."
+                android:paddingStart="@dimen/_10sdp"
+                android:paddingLeft="@dimen/_10sdp" />
 
 
         </androidx.cardview.widget.CardView>
+
         <androidx.cardview.widget.CardView
             android:id="@+id/sendBtn"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
             android:layout_margin="@dimen/_3sdp"
             app:cardBackgroundColor="@color/design_default_color_primary"
-            app:cardCornerRadius="@dimen/_540sdp"
-            android:layout_width="@dimen/_35sdp"
-            android:layout_height="@dimen/_35sdp">
+            app:cardCornerRadius="@dimen/_540sdp">
+
             <ImageView
                 android:layout_width="@dimen/_15sdp"
                 android:layout_height="@dimen/_15sdp"
                 android:layout_gravity="center"
-                android:background="@drawable/send_btn"/>
-
+                android:background="@drawable/send_btn" />
 
 
         </androidx.cardview.widget.CardView>

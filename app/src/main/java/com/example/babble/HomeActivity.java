@@ -29,7 +29,7 @@ public class HomeActivity extends AppCompatActivity {
     UserAdapter adapter;
     FirebaseDatabase database;
     ArrayList<Users> usersArrayList;
-    ImageView imgLogout;
+    ImageView imgLogout,imgSettings;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -55,12 +55,14 @@ public class HomeActivity extends AppCompatActivity {
 
             }
         });
-
+        imgSettings=findViewById(R.id.settings);
         imgLogout=findViewById(R.id.img_logOut);
         mainUserRecyclerView=findViewById(R.id.mainUserRecyclerView);
         mainUserRecyclerView.setLayoutManager(new LinearLayoutManager(this));
         adapter=new UserAdapter(HomeActivity.this,usersArrayList);
         mainUserRecyclerView.setAdapter(adapter);
+
+
 
         imgLogout.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -91,5 +93,12 @@ public class HomeActivity extends AppCompatActivity {
         if(auth.getCurrentUser()==null){
             startActivity(new Intent(HomeActivity.this,RegistrationActivity.class));
         }
+
+        imgSettings.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(HomeActivity.this,SettingActivity.class));
+            }
+        });
     }
 }
